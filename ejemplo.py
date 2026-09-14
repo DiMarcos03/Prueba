@@ -2,7 +2,7 @@
 print("¡Hola, mundo!")
 
 # Variables
-nombre = "Ana"
+nombre = "Marcos"
 edad = 25
 print(f"Mi nombre es {nombre} y tengo {edad} años.")
 
