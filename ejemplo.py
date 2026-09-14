@@ -19,3 +19,39 @@ else:
 # Bucle for
 for i in range(1, 6):
     print(i)
+
+# Más ejemplos para principiantes
+
+# Listas
+frutas = ["manzana", "pera", "uva"]
+print(frutas)
+print(frutas[0])
+frutas.append("banana")
+print(frutas)
+
+# Bucle while
+contador = 0
+while contador < 3:
+    print("Contador:", contador)
+    contador += 1
+
+# Función simple
+def saludar(nombre):
+    return f"Hola, {nombre}!"
+
+print(saludar("Ana"))
+
+# Diccionario
+persona = {"nombre": "Luis", "edad": 22}
+print(persona["nombre"])
+print(persona.get("edad"))
+
+# Ejemplo con condicional anidado
+numero = 10
+if numero > 0:
+    print("El número es positivo.")
+elif numero == 0:
+    print("El número es cero.")
+else:
+    print("El número es negativo.")
+
