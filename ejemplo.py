@@ -39,10 +39,10 @@ while contador < 3:
 def saludar(nombre):
     return f"Hola, {nombre}!"
 
-print(saludar("Ana"))
+print(saludar("Marcos"))
 
 # Diccionario
-persona = {"nombre": "Luis", "edad": 22}
+persona = {"nombre": "Marcos", "edad": 25}
 print(persona["nombre"])
 print(persona.get("edad"))
 
